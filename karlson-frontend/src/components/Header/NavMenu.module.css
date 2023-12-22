@@ -1,0 +1,17 @@
+.nav-menu {
+    display: flex;
+    margin: 0 20px
+}
+
+.nav-menu .nav-item {
+    margin-right: 15px;
+    font-size: 14px
+}
+
+.nav-menu .nav-item:last-child {
+    margin-right: 0
+}
+
+.nav-menu .nav-item a.active {
+    color: #F7B236;
+}

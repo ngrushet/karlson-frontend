@@ -1,0 +1,44 @@
+.header .header .navigation .user-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 286px
+}
+
+.header .header .navigation .user-block .balance-wrap {
+    display: flex;
+    align-items: center;
+    margin-right: 20px
+}
+
+.header .header .navigation .user-block .balance-wrap .card-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: #F7B236;
+    border: 1px solid #F7B236;
+    border-radius: 3px
+}
+
+.header .header .navigation .user-block .balance-wrap .card-icon img:hover {
+    cursor: pointer
+}
+
+.header .header .navigation .user-block .balance-wrap .balance .balance-value {
+    margin-bottom: 3px;
+    font-size: 13px;
+    font-weight: 700
+}
+
+.header .header .navigation .user-block .balance-wrap .balance .bonus-value {
+    font-size: 11px
+}
+
+.header .header .navigation .user-block .balance-wrap .balance .bonus-value .value {
+    color: #F7B236;
+    border-bottom-style: dotted;
+    border-block-width: 1px
+}
