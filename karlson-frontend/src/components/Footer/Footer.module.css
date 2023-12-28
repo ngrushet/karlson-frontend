@@ -1,0 +1,543 @@
+/* footer a {
+    color: #fff
+} */
+
+.footer {
+    background-color: #0a0a0c
+}
+
+.main-footer-wrap {
+    padding: 15px 0;
+    background-color: #0a0a0c
+}
+
+.main-footer-wrap .main-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.main-footer-wrap .main-footer .logo-link {
+    display: flex;
+    width: 170px;
+    height: 100%
+}
+
+.main-footer-wrap .main-footer .logo-link img {
+    width: 170px;
+    height: 100%;
+    max-height: 30px
+}
+
+.main-footer-wrap .main-footer .nav-footer-block {
+    display: flex;
+    align-items: center
+}
+
+.main-footer-wrap .main-footer .nav-footer-block .footer-navigation-block {
+    display: flex;
+    margin-right: 30px
+}
+
+.main-footer-wrap .main-footer .nav-footer-block .footer-navigation-block .f-nav-item {
+    margin-right: 15px;
+    font-size: 13px
+}
+
+.main-footer-wrap .main-footer .nav-footer-block .footer-navigation-block .f-nav-item a.active {
+    color: #F7B236
+}
+
+.main-footer-wrap .main-footer .nav-footer-block .footer-navigation-block .f-nav-item:last-child {
+    margin-right: 0
+}
+
+@media(max-width:1200px) {
+    footer .main-footer-wrap .main-footer .nav-footer-block .footer-navigation-block .f-nav-item {
+        margin-right: 10px
+    }
+
+    footer .main-footer-wrap .main-footer .nav-footer-block .footer-navigation-block {
+        margin-right: 15px
+    }
+}
+
+.main-footer-wrap .main-footer .nav-footer-block .cb-btn {
+    margin-right: 20px
+}
+
+@media(max-width:1200px) {
+    footer .main-footer-wrap .main-footer .nav-footer-block .cb-btn {
+        margin-right: 0
+    }
+}
+
+.main-footer-wrap .main-footer .nav-footer-block .top-button {
+    display: block
+}
+
+@media(max-width:1200px) {
+    footer .main-footer-wrap .main-footer .nav-footer-block .top-button {
+        display: none
+    }
+}
+
+@media(max-width:998px) {
+    footer .main-footer-wrap .main-footer .nav-footer-block {
+        display: none
+    }
+
+    footer .main-footer-wrap .main-footer {
+        justify-content: center
+    }
+}
+
+.alt-footer-wrap {
+    padding: 15px 0;
+    font-size: 13px;
+    background-color: #121212
+}
+
+.alt-footer-wrap .alt-footer-mobile {
+    display: none
+}
+
+.alt-footer-wrap .alt-footer-mobile .mb-f-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px
+}
+
+@media(max-width:780px) {
+    footer .alt-footer-wrap .alt-footer-mobile .mb-f-menu {
+        flex-direction: column
+    }
+
+    footer .alt-footer-wrap .alt-footer-mobile .mb-f-menu .mb-f-item {
+        margin-bottom: 10px
+    }
+
+    footer .alt-footer-wrap .alt-footer-mobile .mb-f-menu .mb-f-item a.active {
+        color: #F7B236
+    }
+}
+
+.alt-footer-wrap .alt-footer-mobile .mb-apps {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px
+}
+
+.alt-footer-wrap .alt-footer-mobile .mb-apps img {
+    width: 200px
+}
+
+.alt-footer-wrap .alt-footer-mobile .mb-apps a {
+    margin-right: 10px
+}
+
+.alt-footer-wrap .alt-footer-mobile .mb-apps a:last-child {
+    margin-right: 0
+}
+
+@media(max-width:575px) {
+    footer .alt-footer-wrap .alt-footer-mobile .mb-apps {
+        flex-direction: column;
+        align-items: center
+    }
+
+    footer .alt-footer-wrap .alt-footer-mobile .mb-apps a {
+        margin-right: 0 !important;
+        margin-bottom: 10px
+    }
+}
+
+.alt-footer-wrap .alt-footer-mobile .mb-information {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px
+}
+
+.alt-footer-wrap .alt-footer-mobile .mb-information .f-info-item {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px
+}
+
+.alt-footer-wrap .alt-footer-mobile .mb-information .f-info-item.white {
+    color: #fff
+}
+
+.alt-footer-wrap .alt-footer-mobile .mb-information .f-info-item.red {
+    color: #F7B236
+}
+
+.alt-footer-wrap .alt-footer-mobile .mb-information .f-info-item:last-child {
+    margin-bottom: 0
+}
+
+.alt-footer-wrap .alt-footer-mobile .mb-social-networks {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px
+}
+
+.alt-footer-wrap .alt-footer-mobile .mb-social-networks li {
+    margin-right: 30px
+}
+
+.alt-footer-wrap .alt-footer-mobile .mb-social-networks li:last-child {
+    margin-right: 0
+}
+
+@media(max-width:998px) {
+    footer .alt-footer-wrap .alt-footer-mobile {
+        display: block
+    }
+}
+
+.alt-footer-wrap .alt-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.alt-footer-wrap .alt-footer .information {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: 1fr 1fr 1fr;
+    color: #959aa6
+}
+
+.alt-footer-wrap .alt-footer .information .f-info-item {
+    margin-bottom: 5px;
+    padding-right: 20px;
+    color: #fff
+}
+
+.alt-footer-wrap .alt-footer .information .f-info-item .white {
+    color: #fff
+}
+
+@media(max-width:1200px) {
+
+    footer .alt-footer-wrap .alt-footer .information .f-info-item:nth-child(7),
+    footer .alt-footer-wrap .alt-footer .information .f-info-item:nth-child(8),
+    footer .alt-footer-wrap .alt-footer .information .f-info-item:nth-child(9) {
+        display: none
+    }
+}
+
+.alt-footer-wrap .alt-footer .networks {
+    display: flex;
+    align-items: center
+}
+
+.alt-footer-wrap .alt-footer .networks .apps {
+    margin-right: 30px
+}
+
+.alt-footer-wrap .alt-footer .networks .apps a img {
+    width: 120px
+}
+
+.alt-footer-wrap .alt-footer .networks .social-networks {
+    display: flex
+}
+
+.alt-footer-wrap .alt-footer .networks .social-networks .nw-item {
+    margin-right: 20px
+}
+
+.alt-footer-wrap .alt-footer .networks .social-networks .nw-item:last-child {
+    margin-right: 0
+}
+
+@media(max-width:998px) {
+    footer .alt-footer-wrap .alt-footer {
+        display: none
+    }
+}
+
+.info-footer-wrap {
+    padding: 10px 0 11px;
+    font-size: 10px;
+    background-color: #fff;
+    background-color: #272b2f
+}
+
+.info-footer-wrap .info-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff
+}
+
+.info-footer-wrap .info-footer .info-menu {
+    display: flex;
+    align-items: center
+}
+
+.info-footer-wrap .info-footer .info-menu .i-menu-item {
+    margin-right: 10px
+}
+
+.info-footer-wrap .info-footer .info-menu .i-menu-item:last-child {
+    margin-right: 0
+}
+
+@media(max-width:1200px) {
+    footer .info-footer-wrap {
+        display: none
+    }
+}
+
+.footer_content_uppart {
+    border-bottom: 1px solid #F7B236;
+    background: #141519;
+}
+
+.footer_uppart {
+    padding-top: 18px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_uppart-rightpart-navmenu-list {
+    display: flex;
+    column-gap: 22px;
+    align-items: center;
+}
+
+.footer_uppart-rightpart-navmenu-list-item a {
+    text-decoration: none;
+    font-family: "Inter-400";
+    font-size: 0.688rem;
+    color: #FFF;
+}
+
+.footer_uppart-rightpart-navmenu-list-item-callbutton a {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 26px;
+    background: #F7B236;
+    text-decoration: none;
+    color: #1E1E1E;
+    text-align: center;
+    font-family: "Inter-400";
+    font-size: 0.688rem;
+    color: #212121;
+}
+
+.footer_content_centrepart {
+    background: #202021;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer_content_centrepart-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_content_centrepart-content-leftparts-menu {
+    display: grid;
+    grid-template-columns: 0.85fr 1fr 1fr;
+    grid-row-gap: 8px;
+}
+
+.footer_content_centrepart-content-leftparts-menu-item {
+    font-family: "Inter-400";
+    font-size: 0.688rem;
+    color: #ffffff;
+}
+
+.footer_content_centrepart-content-leftparts-menu-item b {
+    font-family: "Inter-400";
+    font-size: 0.688rem;
+    color: #707070;
+}
+
+.footer_content_centrepart-content-rightparts-menu {
+    display: flex;
+    column-gap: 3px;
+    align-items: center;
+}
+
+.footer_content_centrepart-content-rightparts-menu-item-VK {
+    margin-left: 33px;
+}
+
+.footer_content_downpart {
+    background: #141519;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 13px;
+    align-items: center;
+}
+
+.footer_content_downpart-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_content_downpart-content p {
+    font-family: "Inter-400";
+    font-size: 0.563rem;
+    color: #FFFFFF;
+}
+
+.footer_content_downpart-content-leftpart {
+    display: flex;
+}
+
+.footer_content_downpart-content-leftpart p:nth-child(1) {
+    margin-right: 86px;
+}
+
+.footer_content_downpart-content-leftpart-rightpart a {
+    font-family: "Inter-400";
+    font-size: 0.563rem;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer_content_downpart-content-leftpart-rightpart {
+    display: flex;
+    column-gap: 18px;
+}
+
+/*
+  .footer_content_centrepart-content-leftparts-menu{
+	font-family: "Inter-400" !important;
+  }
+
+  footer_content_centrepart-content-leftparts >  *, ::after, ::before {
+	box-sizing: border-box;
+	font-family: "Inter-400" !important;
+  }
+
+  footer_content_centrepart-content-leftparts{
+	box-sizing: border-box;
+	font-family: "Inter-400" !important;
+  }
+*/
+.footer_content_centrepart-content-leftparts *,
+.footer_content_centrepart-content-leftparts:after,
+.footer_content_centrepart-content-leftparts:before {
+    box-sizing: border-box;
+    font-family: "Inter-400" !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.main__container {
+    max-width: 1135px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main__container-slider {
+    overflow: hidden;
+}
+
+.full_container {
+    max-width: 100%;
+}
+
+
+@font-face {
+    font-family: "Inter-400";
+    src:
+        url("/public/fonts/Inter-Regular.woff2") format("woff2"),
+        url("/public/fonts/Inter-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter-600";
+    src:
+        url("/public/fonts/Inter-SemiBold.woff2") format("woff2"),
+        url("/public/fonts/Inter-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Jost-400";
+    src:
+        url("/public/fonts/Jost-Regular.woff2") format("woff2"),
+        url("/public/fonts/Jost-Regular.ttf") format("woff2"),
+        url("/public/fonts/Jost-Regular.eot") format("eot"),
+        url("/public/fonts/Jost-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Jost-500";
+    src:
+        url("/public/fonts/Jost-Medium.woff2") format("woff2"),
+        url("/public/fonts/Jost-Medium.ttf") format("woff2"),
+        url("/public/fonts/Jost-Medium.eot") format("eot"),
+        url("/public/fonts/Jost-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Jost-700";
+    src:
+        url("/public/fonts/Jost-Bold.woff2") format("woff2"),
+        url("/public/fonts/Jost-Bold.ttf") format("woff2"),
+        url("/public/fonts/Jost-Bold.eot") format("eot"),
+        url("/public/fonts/Jost-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Jost-900";
+    src:
+        url("/public/fonts/Jost-ExtraBold.woff2") format("woff2"),
+        url("/public/fonts/Jost-ExtraBold.ttf") format("woff2"),
+        url("/public/fonts/Jost-ExtraBold.eot") format("eot"),
+        url("/public/fonts/Jost-ExtraBold.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Circe-400";
+    src:
+        url("/public/fonts/Circe-Regular.woff2") format("woff2"),
+        url("/public/fonts/Circe-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Circe-300";
+    src:
+        url("/public/fonts/Circe-Light.woff2") format("woff2"),
+        url("/public/fonts/Circe-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Circe-700";
+    src:
+        url("/public/fonts/Circe-Bold.woff2") format("woff2"),
+        url("/public/fonts/Circe-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+}

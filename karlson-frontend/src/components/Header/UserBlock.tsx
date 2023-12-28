@@ -16,15 +16,19 @@ export default function UserBlock() {
                 </div>
                 <div className={styles.balance}>
                     <div className={styles['balance-value']}>
-                        <span>0 ₽ / 0 ₽</span></div>
+                        <span>0 ₽ / 0 ₽</span>
+                    </div>
                     <div className={styles['bonus-value']}>
                         <a href="bonus.html">
-                            <span data-toggle="tooltip" data-placement="bottom" title="Бонусная программа"> Бонусы: <span className={styles.value}>0 / 0</span></span>
+                            <span data-toggle="tooltip" data-placement="bottom" title="Бонусная программа">
+                                Бонусы:
+                                <span className={styles.value}>0 / 0</span>
+                            </span>
                         </a>
                     </div>
                 </div>
             </div>
             <ProfileWrapper />
         </div>
-    )
+    );
 } 
