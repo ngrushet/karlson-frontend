@@ -12,7 +12,7 @@ export default function Header() {
             <div className={styles.overlay}></div>
             <div className={styles.container}>
                 <div className={styles.header}>
-                    <Link href="/ordersList"
+                    <Link href="/orders/new"
                         className={styles['logo-link']}>
                         <Image alt="6a" src={logo} />
                     </Link>
